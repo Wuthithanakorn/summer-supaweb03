@@ -13,7 +13,7 @@ import ProductSingle from "./ProductSingle"
 const router = createBrowserRouter([
     {path:'/' , element: <AppRoot/>,children:[ 
         {path:'', index: true, element: <Home/>},
-        {path:'category', element: <Category/>},
+        {path:'category', element: <Category/>,},
         {path:'product', element: <Product/>, loader: loaderProduct},
         {path:'product/:id', element:<ProductSingle/>},
         {path:'order', element: <Order/>},

@@ -24,8 +24,8 @@ export default function NavMenu() {
                             <Nav.Link><NavLink as={NavLink} to={'order'}> Order </NavLink></Nav.Link>                       
                         </Nav> 
                         <Nav className='justify-contain-end'>
-                            <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="#login">Login</Nav.Link>
+                            <Nav.Link as={NavLink} to={'about'}>About</Nav.Link>
+                            <Nav.Link as={NavLink} to={'login'}>Login</Nav.Link>
                         </Nav> 
                     </Navbar.Collapse>
                 </Container>
